@@ -153,7 +153,7 @@ delay (100);
             client.println(Voltage);  
             client.println("</th></tr></table>");              
             
-          client.println("<form name ="gx" id='frm' action='https://formsubmit.co/aravindmohan598@gmail.com' method='POST'>");
+          client.println("<form  id='frm' action='https://formsubmit.co/aravindmohan598@gmail.com' method='POST'>");
         client.println("<input type='text'id='nm' name='name' required>");
         client.println("<input type='text'id='bill' name='Gas leak:' required>");
         
@@ -164,7 +164,7 @@ delay (100);
             client.println("document.getElementById('bill').value=");
             client.println(Voltage);
             client.println("");
-            client.println("if(document.getElementById('bill').value > 200){");
+            client.println("if(document.getElementById('bill').value > 400){");
             client.println("document.getElemntById('frm').submit;");
             //client.println("break;");
             client.println("}");
